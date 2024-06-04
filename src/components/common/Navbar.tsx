@@ -19,13 +19,7 @@ function Navbar() {
         <div className="mx-20 flex items-center justify-between">
           {/* Logo */}
           <div className="cursor-pointer">
-            <Image
-              src={"/image/logo.png"}
-              width={100}
-              height={100}
-              className=""
-              alt={"Company Logo"}
-            />
+            <h2 className="text-3xl font-extrabold tracking-widest">Works</h2>
           </div>
           {/* Menu List */}
           <div className="menu-list">
