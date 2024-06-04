@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 
 function FooterSection() {
@@ -6,12 +5,9 @@ function FooterSection() {
     <footer className="flex flex-col gap-[4rem] bg-[#263640] py-[3rem]">
       <div className="menu-footer container flex">
         <div className="footer-logo w-7/12 cursor-pointer pt-3">
-          <Image
-            src={"/image/footer_logo.png"}
-            alt="Footer Logo"
-            width={100}
-            height={100}
-          />
+          <h2 className="text-3xl font-extrabold tracking-widest text-white">
+            Works
+          </h2>
         </div>
         <div className="menu-footer w-5/12 justify-around gap-3 md:flex">
           <div>
@@ -38,7 +34,7 @@ function FooterSection() {
       </div>
       <div className="copyright container">
         <p className="text-sm text-white opacity-[50%]">
-          Imprint | Data Protection
+          Design by ikyy | Copyright © 2023
         </p>
       </div>
     </footer>
